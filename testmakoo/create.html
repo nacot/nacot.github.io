@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/favicon.ico">
+<title>Makoo</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/jquery.sidr.dark.css" rel="stylesheet">
+<link href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+<link href="css/bootstrap-select.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,600,300,500,700' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.js"></script>
+<![endif]-->
+
+</head>
+<body class="full-height">
+  <div>
+    <div class="pattern">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle menu-trigger">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">How it works</a></li>
+            <li><a href="#">Login</a></li>
+            <li>
+              <a href="#">
+                <i class="glyphicon glyphicon-shopping-cart cart-icon"></i>&nbsp;<span class="badge pull-right">1</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+<div class="container-full">
+  <div class="pattern">
+
+
+    <div id="content_container">
+
+        <div class="col-md-2 col-md-offset-1"><!-- left controls -->
+
+
+          <div id="control_div">
+            <canvas id="waveform_canvas" width="340" height="50"></canvas>
+
+              <div>
+                  <p>ring size</p>
+                  <select id="ringsize_selector" class="selectpicker" onchange="changeSelectedSize()"></select>
+                  <select id="ringsize_standard_selector" onchange="changeSelectedStandard( this.options[this.selectedIndex].value )">
+                      <option value="it">Italy</option>
+                      <option value="uk">UK</option>
+                      <option value="us">US</option>
+                      <option value="mm">mm (diameter)</option>
+                  </select>
+              </div>
+
+              <form id="jewel-properties" role="form">
+                <p>torsion</p>
+                  <div id="torsion_radio" onchange="">
+                      <input type="radio" id="torsion_radio1" name="torsion" value="0">
+                      <label for="torsion_radio1">Linear</label>
+                      <input type="radio" id="torsion_radio2" name="torsion" value="1" checked="checked">
+                      <label for="torsion_radio2">One twist</label>
+                      <input type="radio" id="torsion_radio3" name="torsion" value="2">
+                      <label for="torsion_radio3">Two twists</label>
+                  </div>
+                
+                <div class="form-group">
+                  <label>smoothing</label>
+                  <div id="slider_smoothing"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>intensity correction</label>
+                  <div id="slider_correction"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>amplitude</label>
+                  <div id="slider_amplitude"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>asymmetry</label>
+                  <div id="slider_asymmetry"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>wedge shape</label>
+                  <div id="slider_wedge"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>rotation</label>
+                  <div id="slider_rotation"></div>
+                </div>
+
+                <div class="form-group">
+                  <label>height</label>
+                  <div id="slider_height"></div>
+                </div>
+              </form>
+             
+            </div>
+        </div><!-- /left controls -->
+
+        <div class="col-md-6"><!-- center model -->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4"><p class="pull-right" id="record_time_feedback">0.0 sec</p></div>
+            <div class="col-lg-4 col-md-4 col-sm-4" id="record_button_container">
+                <div id="record_canvasDIV" >
+                    <canvas id="record_canvas"  width="140px" height="140px"></canvas>
+                    <img id="record_button" src="img/creator/rec_button.png" alt="record" onclick="recordButtonPressed()">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4"><img id="play_button" src="img/creator/play_button.png" onclick="playButtonPressed()"></div>
+          </div>
+            
+          <div id="canvasDIV">
+              <canvas id="ring_canvas" ></canvas>
+          </div>
+        </div><!-- /center model -->
+
+        <div class="col-md-2 text-center"><!-- right controls -->
+          <p>
+            <select id="material_selector" class="selectpicker" onchange="changeMaterialRadio( this.options[this.selectedIndex].value )">
+              <option value="gold">Gold</option>
+              <option value="silver">Silver</option>
+              <option value="brass">Brass</option>
+            </select>
+          </p>
+          <h3>Price: 82&euro;</h3><br>
+          <p><a class="btn btn-lg btn-gray"><i class="glyphicon glyphicon-heart"></i>&nbsp; Save Model</a></p><br>
+          <p><a class="btn btn-lg btn-red"><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp; Add to Cart</a></p>
+          <p><a href="#" id="save_file_uri" onclick="fileSaver()" style="color: #fff">Download generated file</a></p>
+
+          <div id="order_div">
+            <p id="ringheight_feedback"></p>
+            <p id="section_radius_feedback"></p>
+            <p id="volume_feedback">Ring volume: record something</p>
+          </div>
+
+        </div><!-- /right controls -->
+
+    </div><!-- /content-container -->
+
+  </div><!-- /pattern -->
+</div><!-- /container -->
+
+<footer>
+  <div id="footer-menu">
+    <ul class="nav nav-justified">
+      <li class="mobile-only"><a href="#">How it works</a></li>
+      <li class="mobile-only"><a href="#">Login</a></li>
+      <li><a href="#">About</a>
+      </li>
+      <li><a href="#">Ring Sizes</a>
+      </li>
+      <li><a href="#">FAQs</a>
+      </li>
+      <li><a href="#">Shipping</a>
+      </li>
+      <li><a href="#">Terms/Conditions/Privacy</a>
+      </li>
+      <li><a href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sidr.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/creator/core.js"></script>
+<script src="js/creator/three.js"></script>
+<script src="js/exporters/STLExporter.js"></script>
+<script src="js/exporters/OBJExporter.js"></script>
+<script src="js/creator/Stats.js"></script>
+<script src="js/creator/OrbitControls.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+
+<!--audio controls autoplay></audio-->
+<audio autoplay></audio>
+
+<script src="js/creator/recorder.js" ></script>
+<script src="js/creator/d05_app_vars.js"></script>
+<script src="js/creator/d01_generic_fx.js"></script>
+<script src="js/creator/d02_sliders.js"></script>
+<script src="js/creator/d02_audio_setup.js"></script>
+<script src="js/creator/d03_mouse.js"></script>
+<script src="js/creator/d04_scene_setup.js"></script>
+<script src="js/creator/d06_generative_fx.js"></script>
+<script src="js/creator/d061_ripples.js"></script>
+<script src="js/creator/d07_setup.js"></script>
+<script src="js/creator/d071_file_saver.js"></script>
+<script src="js/creator/d072_ringsize.js"></script>
+<script src="js/creator/d08_render-ui_fx.js"></script>
+<script src="js/creator/d09_render.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $('.selectpicker').selectpicker();
+});
+</script>
+
+</body>
+</html>

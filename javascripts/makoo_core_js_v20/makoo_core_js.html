@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Makoo Demo</title>
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="makoo_demo.css">
+<img src="logo-title-headline.png" id="logo">
+<div id="canvasDIV">
+    <canvas id="myCanvas"></canvas>
+</div>
+
+<select id="material_selector" onchange="changeMaterial()">
+    <option value="gold">Gold</option>
+    <option value="silver">Silver</option>
+    <option value="brass">Brass</option>
+</select>
+
+<br>
+
+<select id="ringsize_standard_selector" onchange="changeSelectedStandard()">
+    <option value="it">Italy</option>
+    <option value="uk">UK</option>
+    <option value="us">US</option>
+    <option value="mm">mm (diameter)</option>
+</select>
+
+<select id="ringsize_selector" onchange="changeSelectedSize()">
+</select>
+
+
+<div id="ringsize_feedback" style="color: #fff; display: inline"></div>
+<p id="ringheight_feedback" style="color: #fff"></p>
+<p id="section_radius_feedback" style="color: #fff"></p>
+<p id="volume_feedback" style="color: #fff">Ring volume: record something </p>
+
+<a href="#" id="save_file_uri" onclick="fileSaver()" style="color: #fff">Download generated file</a>
+
+<script src="three.min.js"></script>
+<script src="exporters/STLExporter.js"></script>
+<script src="exporters/OBJExporter.js"></script>
+<script src="Stats.js"></script>
+<script src="OrbitControls.js"></script>
+
+<p></p>
+
+<!--audio controls autoplay></audio-->
+<audio autoplay></audio>
+<script type="text/javascript" src="recorder.js"> </script>
+<!--input onclick="startRecording()" type="button" value="start recording" /-->
+<!--input onclick="stopRecording()" type="button" value="stop recording" /-->
+<!--input onclick="playRecording()" type="button" value="play recording" /-->
+<!--input onclick="logArrayLowres()" type="button" value="log actual array of volumes" /-->
+
+
+<script src="d05_app_vars.js"></script>
+<script src="d01_generic_fx.js"></script>
+<script src="d02_sliders.js"></script>
+<script src="d02_audio_setup.js"></script>
+<script src="d03_mouse.js"></script>
+<script src="d04_scene_setup.js"></script>
+<script src="d06_generative_fx.js"></script>
+<script src="d07_setup.js"></script>
+<script src="d071_file_saver.js"></script>
+<script src="d072_ringsize.js"></script>
+<script src="d08_render-ui_fx.js"></script>
+<script src="d09_render.js"></script>
+
+
+<!--script src="alljs.js"></script-->
+
+
+</body>
+</html>

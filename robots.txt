@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /provalo.html
+Disallow: /%E2%80%8E

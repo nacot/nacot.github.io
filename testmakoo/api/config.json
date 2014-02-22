@@ -1,0 +1,12 @@
+{
+  "fileupload": "file"
+, "paths": {
+    "public": "public"
+  , "upload": "upload"  
+  }
+, "shapeways": {
+    "callbackURL": "http://localhost:3000/callback"
+  , "consumerKey": "6e68cb45368d06bba62fa2557263df7afe4e2fe2"
+  , "consumerSecret": "f69bc6010c28cacf388650591cdf9652af2c83a6"
+  }
+}

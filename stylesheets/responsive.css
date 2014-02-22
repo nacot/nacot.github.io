@@ -1,0 +1,227 @@
+/* DESKTOP */
+
+@media only screen and (max-width: 1140px) {
+    body {
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-height: 640px) {
+    body {
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    #results .section-preamble {
+        display: none;
+    }
+
+    #team .section-preamble {
+        display: none;
+    }
+
+}
+
+
+/****************** TABLETS *********************/
+
+@media only screen and (max-width: 800px){
+
+    section {
+        min-height: 0 !important;
+    }
+
+    .section-preamble p span {
+        display: initial;
+    }
+
+    .inner-section p span {
+        display: initial;
+    }
+
+
+    /***** NAV *****/
+
+    #main-nav{
+        display: none !important;
+    }
+
+    /***** HEAD *****/
+
+    #head {
+        padding-top: 0;
+        background: transparent; /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 1)), color-stop(100%,rgba(0, 0, 0, 0) 100%)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0, 0, 0, 1)', endColorstr='rgba(0, 0, 0, 0) 100%',GradientType=0 ); /* IE6-9 */    
+    }
+
+    #head > div.row {
+        background: none;
+        min-height: 100px;
+        height: auto;
+    }
+
+    #head .section-preamble {
+        background: none;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #head #tagline {
+        display: none;
+    }
+
+    #head #discover-by-scrolling {
+        display: none;
+    }
+
+
+    #head .section-preamble img {
+        /*max-width: 90%;*/
+    }
+
+    /*************** HOW IT WORKS ******************/
+
+    /  /* #how-it-works img {
+            height: auto;
+            width: 80%;
+        } */
+
+    /*************** RESULTS ******************/
+
+    #results .inner-section img {
+        width: 90%;
+		align: center;
+    }
+	
+	/**************TRY OUR DEMO****************/
+	
+	
+	#try-it form{
+margin-top:0.2rem;
+}
+	
+	
+
+    /********************* TEAM *********************/
+
+    #team img {
+        max-width: 100%;
+    }
+
+    /**** CONTACTS ****/
+
+}
+
+
+
+
+
+/****************** SMARTPHONE *********************/
+
+@media only screen and (max-width: 480px){
+
+    .section-preamble h2 {
+        font-size: 2rem;
+    }
+
+    .section-preamble p {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .inner-section {
+        padding-top: 22px !important;
+    }
+
+    .columns {
+        margin-top: 22px;
+    }
+
+    /***************** QUOTES ******************/
+
+    .section-preamble > blockquote {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    /***** NAV ******/
+
+
+    /***** HEAD *****/
+
+    #head {
+    }
+
+    /*************** HOW IT WORKS ******************/
+
+    #how-it-works .section-preamble {
+        padding-top: 22px !important;
+    }
+
+    #how-it-works img {
+        height: auto;
+        width: 40%;
+    }
+
+    /********************* TRY IT *********************/
+    #try-it .newsletter-email{ width: 50% !important; 
+	margin: 0px auto;}
+    #try-it .newsletter-btn{ 
+	width: 100%; }
+	
+				 
+
+
+
+	#try-it form{
+margin-top:0.2rem;
+}
+
+
+    /********************* RESULTS *********************/
+
+    #results .inner-section {
+        height: auto;
+    }
+
+    #results .inner-section img {
+        width: 50%;
+    }
+
+    /********************* TEAM *********************/
+
+    #team img {
+        margin-top: 1em;
+    }
+
+    #team .large-6.column:first-child {
+        padding-left: 0;
+    }
+
+    #team .large-6.column:last-child {
+        padding-right: 0;
+    }
+
+    /********************* AS SEEN ON *********************/
+
+    #as-seen-on .inner-section a {
+        width: 32%;
+        margin-bottom: 2rem;
+    }
+
+
+    /********************* CONTACT *********************/
+
+    #contact .inner-section .right {
+        padding: 0;
+        text-align: center;
+    }
+}

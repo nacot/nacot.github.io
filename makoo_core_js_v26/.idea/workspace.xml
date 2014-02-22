@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/d08_render-ui_fx.js" line="20" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b668dc54-dd74-4ce3-b5ee-812825338a7d" name="Default" comment="" />
+    <ignored path="makoo_core_js_v1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="makoo_core_js_v1" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5347432">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="d07_setup.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d07_setup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="45" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2040">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d071_file_saver.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d071_file_saver.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="45" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1080">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="recorder.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/recorder.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="52" column="21" selection-start="1972" selection-end="1972" vertical-scroll-proportion="-6.6551723" vertical-offset="847" max-vertical-offset="3260">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d02_audio_setup.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d02_audio_setup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="41" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1860">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d08_render-ui_fx.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d08_render-ui_fx.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="150" column="21" selection-start="4467" selection-end="4467" vertical-scroll-proportion="-35.37931" vertical-offset="1974" max-vertical-offset="3220">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d05_app_vars.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d05_app_vars.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="69" column="13" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="1980">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d03_mouse.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d03_mouse.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="65" column="18" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="2280">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d04_scene_setup.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d04_scene_setup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="183" column="11" selection-start="5458" selection-end="5480" vertical-scroll-proportion="-14.689655" vertical-offset="3234" max-vertical-offset="5220">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="three.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/three.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6503" column="4" selection-start="121625" selection-end="121625" vertical-scroll-proportion="0.0" vertical-offset="129812" max-vertical-offset="739100">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d01_generic_fx.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d01_generic_fx.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="9" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="2300">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery-ui-1.10.3.custom.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jquery-ui-1.10.3.custom.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10571" column="63" selection-start="323463" selection-end="323463" vertical-scroll-proportion="0.0" vertical-offset="211420" max-vertical-offset="299540">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery-1.9.1.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jquery-1.9.1.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2214" column="62" selection-start="59783" selection-end="59783" vertical-scroll-proportion="0.0" vertical-offset="44280" max-vertical-offset="192060">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d09_render.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/d09_render.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="87" column="10" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.14209116" vertical-offset="1634" max-vertical-offset="2380">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d072_ringsize.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d072_ringsize.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="114" column="37" selection-start="4326" selection-end="4326" vertical-scroll-proportion="0.0" vertical-offset="1589" max-vertical-offset="2400">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="d06_generative_fx.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/d06_generative_fx.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="260" column="7" selection-start="8927" selection-end="8927" vertical-scroll-proportion="-27.862068" vertical-offset="4392" max-vertical-offset="13580">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="makoo_core_js.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/makoo_core_js.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="56" column="31" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.07575758" vertical-offset="1060" max-vertical-offset="7000">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="makoo_demo.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/makoo_demo.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="94" column="27" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="3380">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/d10_file_saver.js" />
+        <option value="$PROJECT_DIR$/OBSOLETE.js" />
+        <option value="$PROJECT_DIR$/d07_setup.js" />
+        <option value="$PROJECT_DIR$/three.js" />
+        <option value="$PROJECT_DIR$/d072_ringsize.js" />
+        <option value="$PROJECT_DIR$/d03_mouse.js" />
+        <option value="$PROJECT_DIR$/d071_file_saver.js" />
+        <option value="$PROJECT_DIR$/d05_app_vars.js" />
+        <option value="$PROJECT_DIR$/d02_audio_setup.js" />
+        <option value="$PROJECT_DIR$/makoo_core_js.html" />
+        <option value="$PROJECT_DIR$/d08_render-ui_fx.js" />
+        <option value="$PROJECT_DIR$/makoo_demo.css" />
+        <option value="$PROJECT_DIR$/recorder.js" />
+        <option value="$PROJECT_DIR$/d06_generative_fx.js" />
+        <option value="$PROJECT_DIR$/d04_scene_setup.js" />
+        <option value="$PROJECT_DIR$/d09_render.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1696" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b668dc54-dd74-4ce3-b5ee-812825338a7d" name="Default" comment="" />
+      <created>1381869450702</created>
+      <updated>1381869450702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1696" height="1032" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858006" sideWeight="0.1767442" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2023939" sideWeight="0.4372093" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33873874" sideWeight="0.5616279" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28726876" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2214" column="62" selection-start="59783" selection-end="59783" vertical-scroll-proportion="0.0" vertical-offset="44280" max-vertical-offset="192060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-ui-1.10.3.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10571" column="63" selection-start="323463" selection-end="323463" vertical-scroll-proportion="0.0" vertical-offset="211420" max-vertical-offset="299540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d07_setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="45" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d03_mouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="18" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d072_ringsize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="37" selection-start="4326" selection-end="4326" vertical-scroll-proportion="0.0" vertical-offset="1648" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d071_file_saver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="45" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d02_audio_setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d05_app_vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="13" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d08_render-ui_fx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="21" selection-start="4467" selection-end="4467" vertical-scroll-proportion="-35.37931" vertical-offset="1974" max-vertical-offset="3220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="21" selection-start="1972" selection-end="1972" vertical-scroll-proportion="-6.6551723" vertical-offset="847" max-vertical-offset="3260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d06_generative_fx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="7" selection-start="8927" selection-end="8927" vertical-scroll-proportion="-27.862068" vertical-offset="4392" max-vertical-offset="13580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makoo_demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="27" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="3380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makoo_core_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="31" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.07575758" vertical-offset="1060" max-vertical-offset="7000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d01_generic_fx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="2300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d04_scene_setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="11" selection-start="5458" selection-end="5480" vertical-scroll-proportion="-14.689655" vertical-offset="3234" max-vertical-offset="5220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d09_render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="10" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.14209116" vertical-offset="1634" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

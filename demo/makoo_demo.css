@@ -1,0 +1,36 @@
+#myCanvas {
+    width: 960px;
+    height: 640px;
+//background-color: #444444;
+background-image: url('message.png');
+    }
+#myCanvas:active, #myCanvas:focus {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+body{
+    background: #3a3c3f; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #3a3c3f 0%, #2a2a2d 37%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3c3f), color-stop(37%,#2a2a2d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3c3f', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#logo{
+    visibility: hidden;
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+#canvasDIV{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    width: 960px
+}

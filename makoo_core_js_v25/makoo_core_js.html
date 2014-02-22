@@ -1,0 +1,345 @@
+<html>
+<head>
+    <title>Makoo Demo</title>
+    <link href="jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <script src="jquery-1.9.1.js"></script>
+    <script src="jquery-ui-1.10.3.custom.js"></script>
+</head>
+
+
+
+<body>
+<link rel="stylesheet" type="text/css" href="makoo_demo.css">
+
+<div id="transparent_bg">
+    <div id="content_container">
+        <div id="canvas_container_div">
+            <div id="record_canvasDIV">
+                <canvas id="record_canvas" width="600" height="200"></canvas>
+                <p id="record_title">Create your own jewel</p>
+                <p id="record_time_feedback">0.0 sec</p>
+                <img id="record_button"  src="rec_button.png" alt="record" onclick="recordButtonPressed()">
+                <img id="play_button" src="play_button.png" onclick="playButtonPressed()">
+            </div>
+
+            <div id="canvasDIV">
+                <canvas id="ring_canvas" width="600" height="600"></canvas>
+            </div>
+        </div>
+
+
+
+        <div id="control_div">
+
+            <canvas id="waveform_canvas" width="340" height="50">
+
+            </canvas>
+
+            <div style="height: 22px">
+                <p style="display: inline; margin-left: 40px; margin-top: 5px">ring size</p>
+
+                <select id="ringsize_selector"
+                        style="display: inline; float: right"
+                        onchange="changeSelectedSize()">
+                </select>
+
+                <select id="ringsize_standard_selector"
+                        style="display: inline; float: right"
+                        onchange="changeSelectedStandard( this.options[this.selectedIndex].value )">
+                    <option value="it">Italy</option>
+                    <option value="uk">UK</option>
+                    <option value="us">US</option>
+                    <option value="mm">mm (diameter)</option>
+                </select>
+            </div>
+            <div style="width: 100%; height: 2px; background-color: #fff"></div>
+
+
+            <br>
+
+            <p class="slider_title">torsion</p>
+
+            <form>
+                <div id="torsion_radio" onchange="">
+                    <input type="radio" id="torsion_radio1" name="torsion" value="0">
+                    <label for="torsion_radio1">Linear</label>
+
+                    <input type="radio" id="torsion_radio2" name="torsion" value="1" checked="checked">
+                    <label for="torsion_radio2">One twist</label>
+
+                    <input type="radio" id="torsion_radio3" name="torsion" value="2">
+                    <label for="torsion_radio3">Two twists</label>
+                </div>
+                <script>
+                    $(function() {
+                        $( "#torsion_radio" ).buttonset();
+                    });
+                    $("input:radio[name=torsion]").click(function() {
+                        var value = $(this).val();
+                        value = parseInt(value);
+                        ringTorsion = value;
+                        updateRingGeometry = true;
+                        //alert( typeof value  + "  " + value);
+                    });
+                </script>
+            </form>
+
+            <br>
+
+            <p class="slider_title">smoothing</p>
+            <div id="slider_smoothing"></div>
+
+            <p class="slider_title">intensity correction</p>
+            <div id="slider_correction"></div>
+
+            <p class="slider_title">amplitude</p>
+            <div id="slider_amplitude"></div>
+
+            <p class="slider_title">asymmetry</p>
+            <div id="slider_asymmetry"></div>
+
+            <p class="slider_title">wedge shape</p>
+            <div id="slider_wedge"></div>
+
+            <p class="slider_title">rotation</p>
+            <div id="slider_rotation"></div>
+
+            <p class="slider_title">height</p>
+            <div id="slider_height"></div>
+
+        </div>
+
+
+        <div id="order_div">
+            <!--form>
+                <div id="mat_radio" onchange="">
+                    <input type="radio" id="mat_radio1" name="material" value="gold" checked="checked">
+                    <label for="mat_radio1">Gold</label>
+
+                    <input type="radio" id="mat_radio2" name="material" value="silver">
+                    <label for="mat_radio2">Silver</label>
+
+                    <input type="radio" id="mat_radio3" name="material" value="brass">
+                    <label for="mat_radio3">Brass</label>
+                </div>
+                <script>
+                    $(function() {
+                        $( "#mat_radio" ).buttonset();
+                    });
+                    $("input:radio[name=material]").click(function() {
+                        var value = $(this).val();
+                        changeMaterialRadio(value);
+                        //alert( typeof value  + "  " + value);
+                    });
+                </script>
+            </form-->
+
+            <select id="material_selector"
+                    onchange="changeMaterialRadio( this.options[this.selectedIndex].value )">
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+                <option value="brass">Brass</option>
+            </select>
+
+            <p id="ringheight_feedback" style="color: #fff"></p>
+            <p id="section_radius_feedback" style="color: #fff"></p>
+            <p>
+                <br><br>
+                //////////AREA DI SERVIZIO//////////
+                <br>
+                Sono questi i nomi dei variabili da passare a Shapeways:
+            </p>
+            <p id="volume_feedback" style="color: #fff">Ring volume: record something </p>
+
+            <a href="#" id="save_file_uri" onclick="fileSaver()" style="color: #fff">Download generated file</a>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script>
+    //INIT ALL SLIDERS
+    $(function() {
+        //SMOOTHING
+        var modValue = function(){
+            smoothingRadiusMin = $("#"+this.id).slider("value");
+            smoothingRadiusMin = parseInt( smoothingRadiusMin );
+            updateRingGeometry = true;
+        }
+        smoothingRadiusMin = 30;
+        $( "#slider_smoothing" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 15,
+            max: 160,
+            value: smoothingRadiusMin,
+            step: 1,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //CORRECTION
+        var modValue = function(){
+            smoothingRadiusDifferences = $("#"+this.id).slider("value");
+            updateRingGeometry = true;
+        }
+        smoothingRadiusDifferences = 0.5;
+        $( "#slider_correction" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: -3,
+            max: 3,
+            value: smoothingRadiusDifferences,
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //AMPLITUDE
+        var modValue = function(){
+            amplitude = $("#"+this.id).slider("value");
+            updateRingGeometry = true;
+        }
+        amplitude = 0.4;
+        $( "#slider_amplitude" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 0,
+            max: 0.8,
+            value: amplitude,
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //ASYMMETRY
+        var modValue = function(){
+            temp = $("#"+this.id).slider("value");
+            temp = 2- temp;
+            ringAsymmetry[1] = temp;
+            ringAsymmetry[2] = temp;
+            ringAsymmetry[0] = 1;
+            updateRingGeometry = true;
+        }
+        ringAsymmetry[0] = 1;
+        ringAsymmetry[1] = 1;
+        ringAsymmetry[2] = 1;
+
+        $( "#slider_asymmetry" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 1,
+            max: 2,
+            value: ringAsymmetry[0],
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //WEDGE
+        var modValue = function(){
+            ringHeightSection[0] = $("#"+this.id).slider("value");
+            temp = 2 - ringHeightSection[0];
+            ringHeightSection[1] = temp;
+            ringHeightSection[2] = temp;
+            updateRingGeometry = true;
+        }
+        ringHeightSection[0] = 1;
+        ringHeightSection[1] = 1;
+        ringHeightSection[2] = 1;
+        $( "#slider_wedge" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 1,
+            max: 1.5,
+            value: ringHeightSection[0],
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //ROTATION
+        var modValue = function(){
+            sectionRotation = $("#"+this.id).slider("value");
+            updateRingGeometry = true;
+        }
+        sectionRotation = 0;
+        $( "#slider_rotation" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 0,
+            max: 1,
+            value: sectionRotation,
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+        //HEIGHT
+        var modValue = function(){
+            ringHeight = $("#"+this.id).slider("value");
+            updateRingGeometry = true;
+        }
+        ringHeight = 180;
+        $( "#slider_height" ).slider({
+            orientation: "horizontal",
+            range: "min",
+            min: 80,
+            max: 220,
+            value: ringHeight,
+            step: 0.002,
+            change: modValue,
+            slide: modValue
+        });
+
+
+    });
+
+
+
+
+
+
+</script>
+
+<script src="three.js"></script>
+<script src="exporters/STLExporter.js"></script>
+<script src="exporters/OBJExporter.js"></script>
+<script src="Stats.js"></script>
+<script src="OrbitControls.js"></script>
+
+<p></p>
+
+<!--audio controls autoplay></audio-->
+<audio autoplay></audio>
+<script type="text/javascript" src="recorder.js"> </script>
+<!--input onclick="startRecording()" type="button" value="start recording" /-->
+<!--input onclick="stopRecording()" type="button" value="stop recording" /-->
+<!--input onclick="playRecording()" type="button" value="play recording" /-->
+<!--input onclick="logArrayLowres()" type="button" value="log actual array of volumes" /-->
+
+<script src="d05_app_vars.js"></script>
+<script src="d01_generic_fx.js"></script>
+<script src="d02_sliders.js"></script>
+<script src="d02_audio_setup.js"></script>
+<script src="d03_mouse.js"></script>
+<script src="d04_scene_setup.js"></script>
+<script src="d06_generative_fx.js"></script>
+<script src="d07_setup.js"></script>
+<script src="d071_file_saver.js"></script>
+<script src="d072_ringsize.js"></script>
+<script src="d08_render-ui_fx.js"></script>
+<script src="d09_render.js"></script>
+
+<!--script src="alljs.js"></script-->
+
+</body>
+</html>

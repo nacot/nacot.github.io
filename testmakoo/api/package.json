@@ -1,0 +1,28 @@
+{
+  "name": "makoo",
+  "version": "0.0.1",
+  "description": "Materialize your emotions",
+  "author": "Federico Rampazzo <frampone@gmail.com> (http://framp.me)",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "oauth": "*",
+    "express": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-facebook": "*",
+    "passport-twitter": "*",
+    "passport-google": "*",
+    "mongoose": "*",
+    "mongoose-timestamp": "*",
+    "async": "*",
+    "baucis": "*",
+    "hash-password-default": "framp/hash-password-default",
+    "fileupload": "framp/fileupload",
+    "nodemailer": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

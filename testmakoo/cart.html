@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/favicon.ico">
+<title>Makoo</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/jquery.sidr.dark.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,600,300,500,700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle menu-trigger">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">How it works</a></li>
+            <li><a href="#">Login</a></li>
+            <li>
+            <a href="#">
+            <i class="glyphicon glyphicon-shopping-cart cart-icon"></i>&nbsp;<span class="badge pull-right">1</span>
+            </a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  <div class="wrap-pattern">
+  <div class="container cart">
+    <div class="row shopping-cart">
+      <div class="col-md-12">
+        <h1 class="text-center page-title">Shopping Cart</h1>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="row">
+          <div class="col-md-4 boxed boxed-image">
+            <div class="box box-cart preview">
+              <img src="img/demo/jewel.png" alt="#">
+            </div>
+          </div>
+          <div class="col-md-8 boxed">
+            <div class="row box box-cart text-center">
+              <div class="col-md-5 col-sm-5 desktop-only">
+                my jewel
+              </div>
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <h2 class="control-title-sm">Price</h2>
+                  </div>
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <p class="price">
+                      85&euro;
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="row">
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <h2 class="control-title-sm">Quantity</h2>
+                  </div>
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <form class="form-horizontal" action="#">
+                      <div class="form-group">
+                        <div class="col-lg-12 col-sm-12">
+                          <input type="text" class="form-control item-number" name="itemNumber" id="itemNumber" required="required" value="1">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="row shop-controls">
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <a href="#"><i class="glyphicon glyphicon-pencil"></i> update</a>
+                  </div>
+                  <div class="col-md-12 col-sm-6 col-xs-6">
+                    <a href="#"><i class="glyphicon glyphicon-remove"></i> remove</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-4 col-md-8 boxed">
+            <div class="row box box-cart">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-2 col-sm-8 col-xs-8">
+                  Subtotal
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 price-sm">
+                  &euro; 85.00
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-2 col-sm-8 col-xs-8">
+                  Shipping
+                </div>
+                <div class="col-md-4 price-sm col-sm-4 col-xs-4">
+                  &euro; 6.50
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-2 col-sm-8 col-xs-8">
+                  Sales Tax
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 price-sm">
+                  &euro; --
+                </div>
+              </div>
+              <div class="row bold">
+                <div class="col-md-6 col-md-offset-2 col-sm-8 col-xs-8">
+                  Total
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 price-sm">
+                  &euro; 91.50
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form role="form" class="form-horizontal" action="#">
+        <div class="col-md-6 col-sm-6 boxed">
+          <div class="box box-primary">
+            <div class="form-group">
+              <label for="email" class="col-lg-12">Email</label>
+              <div class="col-lg-12 col-sm-12">
+                <input type="text" class="form-control" name="email" id="email" required="required">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="country" class="col-lg-12">Country</label>
+              <div class="col-lg-12 col-sm-12">
+                <input type="text" class="form-control" name="country" id="country" required="required">
+              </div>
+            </div>
+          </div>
+          <div class="box box-primary">
+            <h2 class="control-title">Shipping Info</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name" class="col-lg-12">First Name</label>
+                  <div class="col-lg-12 col-sm-12">
+                    <input type="text" class="form-control" name="name" id="name" required="required">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="surname" class="col-lg-12">Last Name</label>
+                  <div class="col-lg-12 col-sm-12">
+                    <input type="text" class="form-control" name="surname" id="surname" required="required">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address" class="col-lg-12">Street Address</label>
+              <div class="col-lg-12 col-sm-12">
+                <input type="text" class="form-control" name="address" id="address" required="required">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="apartment" class="col-lg-12">Apartment or Suite</label>
+              <div class="col-lg-12 col-sm-12">
+                <input type="text" class="form-control" name="apartment" id="apartment" required="required">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="city" class="col-lg-12">City</label>
+              <div class="col-lg-12 col-sm-12">
+                <input type="text" class="form-control" name="city" id="city" required="required">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="state" class="col-lg-12">State/Provice/Region</label>
+                  <div class="col-lg-12 col-sm-12">
+                    <input type="text" class="form-control" name="state" id="state" required="required">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="postalCode" class="col-lg-12">Zip/Postal Code</label>
+                  <div class="col-lg-12 col-sm-12">
+                    <input type="text" class="form-control" name="postalCode" id="postalCode" required="required">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box box-primary">
+            <h2 class="control-title top-spaced">Confirm and Pay</h2>
+            <div class="row">
+              <div class="col-md-6">
+                 Subtotal
+              </div>
+              <div class="col-md-6 text-right">
+                 &euro; 85.00
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                 Shipping
+              </div>
+              <div class="col-md-6 text-right">
+                 &euro; 6.50
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                 Sales Tax
+              </div>
+              <div class="col-md-6 text-right">
+                 --
+              </div>
+            </div>
+            <div class="divider">
+            </div>
+            <div class="row bold">
+              <div class="col-md-6">
+                 Total
+              </div>
+              <div class="col-md-6 text-right">
+                 &euro; 91.50
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 ">
+                <div class="payment">
+                  <img src="img/btn-paypal.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- /container -->
+  <footer>
+  <div id="footer-menu">
+    <ul class="nav nav-justified">
+      <li class="mobile-only"><a href="#">How it works</a></li>
+      <li class="mobile-only"><a href="#">Login</a></li>
+      <li><a href="#">About</a>
+      </li>
+      <li><a href="#">Ring Sizes</a>
+      </li>
+      <li><a href="#">FAQs</a>
+      </li>
+      <li><a href="#">Shipping</a>
+      </li>
+      <li><a href="#">Terms/Conditions/Privacy</a>
+      </li>
+      <li><a href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </footer>
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sidr.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

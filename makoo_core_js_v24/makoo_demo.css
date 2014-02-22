@@ -1,0 +1,157 @@
+#canvas_container_div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    font-size: 16px;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #fff;
+}
+
+#record_title{
+    position: absolute;
+    top: 5px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+#ring_canvas {
+    /*background-color: #444444;*/
+}
+
+#transparent_bg{
+    background-image: url('message.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#content_container{
+    visibility: hidden;
+}
+
+#ring_canvas:active, #ring_canvas:focus {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+#canvasDIV{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+
+    width: 600px;
+    height: 600px;
+}
+
+#record_canvas {
+    /*background-color: #4f70ef;*/
+}
+#record_canvas:active, #record_canvas:focus {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+#record_canvasDIV{
+    position: relative;
+    width: 600px;
+    height: 200px;
+}
+
+#record_button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 250px;
+}
+
+#play_button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 75px;
+    left: 370px;
+}
+
+#record_time_feedback{
+    position: absolute;
+    margin: 0;
+    top: 90px;
+    left: 130px;
+    width: 100px;
+    text-align: right;
+}
+
+body{
+    background: #3a3c3f; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #3a3c3f 0%, #2a2a2d 37%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3c3f), color-stop(37%,#2a2a2d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #3a3c3f 0%,#2a2a2d 37%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3c3f', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#logo{
+
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+
+#control_div{
+    font-size: 16px;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #fff;
+    float: left;
+    width: 340px;
+    /*height: 400px;*/
+    /*background-color: rgba(255, 255, 255, 0.10); */
+    font-size: 12px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+
+
+}
+
+.slider_title{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+#waveform_canvas{
+    /*background-color: #999999;*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#order_div{
+    font-size: 16px;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #fff;
+    width: 340px;
+    /*height: 400px;*/
+    /*background-color: rgba(255, 255, 255, 0.10);  */
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 300px;
+
+
+}
